@@ -1,0 +1,18 @@
+.home_section1 {
+  display: flex;
+  padding: 2rem;
+}
+
+.home_section2 {
+  background-color: black;
+  display: flex;
+  padding: 2rem;
+}
+
+.home_section2 > .card_info {
+  background-color: black;
+}
+
+.derozan {
+  color: blue;
+}

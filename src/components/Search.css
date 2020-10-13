@@ -1,0 +1,56 @@
+.search {
+  position: absolute;
+  top: 35px;
+
+  left: 25%;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.guest {
+  width: 540px;
+  padding: 20px;
+  top: 340px;
+
+  background-color: white;
+  position: absolute;
+  left: 0;
+}
+
+.guest h2 {
+  font-size: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  justify-content: space-between;
+  display: flex;
+  color: #ff7779;
+}
+
+.search > input {
+  width: 539px;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 380px;
+  border: none;
+}
+
+.search > input:focus {
+  outline-width: 0;
+}
+
+.search > button {
+  position: absolute;
+  left: 0;
+  top: 455px;
+  text-transform: inherit !important;
+  background-color: #ff7779;
+  color: white;
+  width: 579px;
+}
+
+.search button:hover {
+  color: #ff7779;
+  background-color: rgb(238, 202, 202);
+}
