@@ -13,6 +13,12 @@
   background-color: black;
 }
 
-.derozan {
-  color: blue;
+@media screen and (max-width: 650px) {
+  .home_section1 {
+    display: block;
+  }
+
+  .home_section2 {
+    display: block;
+  }
 }

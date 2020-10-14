@@ -12,7 +12,7 @@
   background-color: white;
   z-index: 100;
   width: 100vw;
-  min-width: 100%;
+  width: 100%;
   padding-left: 3.7rem;
 }
 
@@ -56,16 +56,24 @@
 }
 
 @media screen and (max-width: 650px) {
+  .logo {
+    margin-right: 1.5rem;
+  }
   .main_header {
-    padding-left: 0;
-    min-width: 80vw;
+    display: grid;
+    place-items: center;
+
+    grid-template-columns: repeat(1, 23rem);
   }
 
   .header_center > input {
-    width: 12rem;
+    width: 15rem;
   }
 
   .header_right {
-    display: block;
+    display: none;
+  }
+  .header_center {
+    margin-bottom: 1rem;
   }
 }

@@ -72,3 +72,9 @@
   bottom: 10px;
   right: 30px;
 }
+
+@media screen and (max-width: 650px) {
+  .searchResult {
+    display: block;
+  }
+}
