@@ -55,7 +55,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 550px) {
   .logo {
     margin-right: 1.5rem;
   }
@@ -75,5 +75,14 @@
   }
   .header_center {
     margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main_header {
+    display: grid;
+    place-items: center;
+
+    grid-template-columns: repeat(1, 19rem);
   }
 }
